@@ -25,9 +25,11 @@ const Donation = () => {
 
             </div>
 
-            <div className={donationLength === donations.length ? 'hidden' : ''}>
+            <div className="flex justify-center mt-10">
+            <div  className={donationLength === donations.length ? 'hidden' : ''}>
                 <button onClick={() => setDonationLength(donations.length)}
                 className="btn btn-primary ">Show all</button>
+            </div>
             </div>
         </div>
     );
