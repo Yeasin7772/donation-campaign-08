@@ -1,8 +1,36 @@
-# React + Vite
+##Features
+* Create fake JSON data in my projects .
+* Use React hook for dynamic fetch data.
+* create card component dynamic and includes image,name,title,description etc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Feedback
+ * Implement responsive design for all device donation project.
+ * Added sweetAlert for improved user donation of users helpful.
+ * project use easy and too much helpful for. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ## Installation
+
+## Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+  npm install -D tailwindcss postcss autoprefixer
+  npx tailwindcss init -p
+  npm install react-router-dom
+  tailwind.config.js:
+      content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+     ],
+     index.html:
+   @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    npm install sweetalert --save
+
+    npm run dev
+
+```
