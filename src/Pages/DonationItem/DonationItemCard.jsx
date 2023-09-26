@@ -31,8 +31,8 @@ const DonationItemCard = ({ donation }) => {
         <div className="flex justify-center items-center  mt-6">
 
             <div className="card w-[90vh] sm:h-full md:h-[90vh] lg:h-[90vh] bg-base-100 shadow-xl">
-                <figure><img className="  relative w-full sm:h-[400px]" src={img} alt="Shoes" /></figure>
-                <div className= " sm:static md:absolute  lg:absolute   md:bottom-[5px] lg:bottom-[250px] py-3 w-full lg:bg-black lg:bg-opacity-70 ">
+                <figure><img className="  relative w-full " src={img} alt="Shoes" /></figure>
+                <div className=" sm:static md:static  lg:absolute lg:bottom-[250px] py-3 w-full lg:bg-black lg:bg-opacity-70 ">
                     <button style={backgroundStyle} onClick={handelAddDonation}
                         className="select-none rounded-lg py-3 ml-8 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                         type="button"
@@ -42,12 +42,12 @@ const DonationItemCard = ({ donation }) => {
                     </button>
                 </div>
                 <div className="card-body">
-                    <h2 className="card-title text-4xl font-bold text-[#0B0B0B]">
-                    {Title}
-                      
+                    <h2 className="card-title text-2xl lg:text-4xl font-bold text-[#0B0B0B]">
+                        {Title}
+
                     </h2>
                     <p className="text-[#0B0B0BB3]"><small>{Description}</small></p>
-                   
+
                 </div>
             </div>
 
