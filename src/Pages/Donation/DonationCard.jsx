@@ -28,7 +28,7 @@ const DonationCard = ({ donation }) => {
                             {name}
                         </p>
                </div>
-                    <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                    <h4 className="mb-2 block font-sans  md:text-base lg:text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                         {Title}
                     </h4>
                     <p style={priceStyle} className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">

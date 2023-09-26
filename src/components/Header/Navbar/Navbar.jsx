@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
-import Logo from "./Logo";
+
 
 
 const Navbar = () => {
     return (
         <div>
-            <nav className=" flex   justify-between py-5 px-10">
-                <Logo></Logo>
+            <nav className=" flex  flex-col md:flex-row lg:flex-row  justify-between py-5 px-10">
+            <img className="w-42 h-10" src="https://i.ibb.co/SnTVMFT/Logo.png" alt="" />
                
                 <ul className="flex gap-11">
 
@@ -18,7 +18,7 @@ const Navbar = () => {
                                     isActive ? "text-[#FF444A] underline" : ""
                             }
                         >
-                            <h1 className=" text-xl"> Home</h1>
+                            <h1 className=" sm:text-lg lg:text-xl"> Home</h1>
                         </NavLink>
                     </li>
                     <li>
@@ -30,7 +30,7 @@ const Navbar = () => {
                             }
                         >
 
-                            <h1 className=" text-xl"> Donation</h1>
+                            <h1 className=" sm:text-lg lg:text-xl"> Donation</h1>
                         </NavLink>
                     </li>
                     <li>
@@ -42,7 +42,7 @@ const Navbar = () => {
                             }
                         >
 
-                            <h1 className=" text-xl"> Statistics</h1>
+                            <h1 className="  sm:text-lg lg:text-xl"> Statistics</h1>
                         </NavLink>
                     </li>
 
