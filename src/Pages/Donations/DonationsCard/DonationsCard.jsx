@@ -31,9 +31,7 @@ const DonationsCard = ({ donation }) => {
                             className="block font-sans text-base font-medium leading-relaxed px-4 border antialiased">
                             {name}
                         </p>
-                        <p style={priceStyle} className="block font-sans text-base font-medium leading-relaxed antialiased">
-                            {Price}
-                        </p>
+                      
                     </div>
                     <p style={priceStyle} className="block font-sans text-xl font-semibold leading-normal antialiased opacity-75">
                         {Title}

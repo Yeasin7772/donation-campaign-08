@@ -10,7 +10,7 @@ const Donation = () => {
         if (donationItems) {
             setDonations(donationItems)
         } else {
-            console.log('no data');
+            //console.log('no data');
         }
     }, [])
     return (
@@ -18,6 +18,9 @@ const Donation = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                 {
+                    // donationLength ?  donations.slice(0, 4).map(donation =>
+                    //     <DonationCard key={donation.id} donation={donation}></DonationCard>):
+
                     donations.slice(0, donationLength).map(donation =>
                         <DonationCard key={donation.id} donation={donation}></DonationCard>)
                 }
@@ -26,10 +29,17 @@ const Donation = () => {
             </div>
 
             <div className="flex justify-center mt-10">
-            <div  className={donationLength === donations.length ? 'hidden' : ''}>
-                <button onClick={() => setDonationLength(donations.length)}
-                className="btn btn-primary ">Show all</button>
-            </div>
+
+
+
+
+
+
+                {<div className={donationLength === donations.length ? 'hidden' : ' '}>
+
+                    <button onClick={() => setDonationLength(donations.length)}
+                        className="btn btn-primary ">Show all</button>
+                </div>}
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
-##Features
+## Features
 * Create fake JSON data in my projects .
 * Use React hook for dynamic fetch data.
-* create card component dynamic and includes image,name,title,description etc
+* create card component dynamic and includes image,name,title,description etc.
 
 
 ## Feedback

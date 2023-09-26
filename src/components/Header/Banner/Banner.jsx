@@ -3,7 +3,7 @@
 const Banner = () => {
     return (
         <div className="h-[70vh] ">
-            <div className="hero h-[70vh] bg-opacity-100" style={{backgroundImage: '(https://i.ibb.co/2NNRxN2/Rectangle-4281.png)'}}>
+            <div className="hero bg-white h-[70vh]  bg-opacity-10" style={{backgroundImage: 'url(https://i.ibb.co/2NNRxN2/Rectangle-4281.png)'}}>
                 <div className="hero-content text-center">
                     <div className="">
                         <h1 className=" sm:text-3xl md:text-5xl lg:text-5xl text-[#0B0B0B] font-bold py-10">I Grow By Helping People In Need</h1>
