@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <div>
-            <nav className=" flex  flex-col md:flex-row lg:flex-row  justify-between py-5 px-10">
+            <nav className=" flex  flex-col md:flex-row lg:flex-row gap-5  justify-between py-5 px-10">
             <img className="w-42 h-10" src="https://i.ibb.co/SnTVMFT/Logo.png" alt="" />
                
                 <ul className="flex gap-11">
